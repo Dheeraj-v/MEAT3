@@ -1,0 +1,17 @@
+<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 outerBorder">
+	<div class="item-image-wrapper">
+		<a href="#/{{items.itemName}}"><img src="{{items.imgUrl}}"></a>
+	</div>
+</div>
+<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+	<h2>
+		{{items.itemName | capitalize}}
+	</h2>
+	<h3>
+		Price : Rs: {{items.price}}.00
+	</h3>
+	<button type="button" class="btn btn-primary"  data-id ="{{items.itemName}}" data-amount= "{{items.price}}" ng-click = "addToCart($event)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add To Cart</button>
+	<h4>
+		Description:
+	</h4>
+</div>

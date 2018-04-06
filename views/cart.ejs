@@ -1,0 +1,30 @@
+<div>
+
+
+ <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th >total price</th>
+        <th>Activity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat ="cartdetaillist in cartdetaillists">
+        <td>{{ cartdetaillist.productname }}</td>
+        <td>Rs. {{ cartdetaillist.productamount }}/-</td>
+        <td ><input  type ="number" name = "noOfQuantity" ng-model="cartdetaillist.quantity"></td>
+
+        <td ><span>Rs.{{cartdetaillist.productamount * cartdetaillist.quantity}}  </span></td>
+
+        <td><button class="btn btn-danger" ng-click="remove(cartdetaillist._id)">Remove</button>
+        <button class="btn btn-primary" ng-click="update(cartdetaillist)">Update</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+        <a href="#/orderplacement"<button class="btn btn-primary" ng-click='getAddress()'>Proceed to Checkout</button></a>
+
+</div>

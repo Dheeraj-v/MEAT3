@@ -1,0 +1,12 @@
+<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 outerBorder" ng-repeat = "response in responses | limitTo: 5  ">
+	<div class="item-image-wrapper">
+		<a href="#/{{response.itemName}}"><img src="{{response.imgUrl}}"></a>
+	</div>
+	<p class="item-name">
+		{{response.itemName | capitalize}}
+	</p>
+	<p class="item-price">
+		Rs: {{response.price}}.00
+	</p>
+	<button type="button" class="btn btn-primary" data-id ="{{response.itemName}}" data-amount= "{{response.price}}" ng-click = "addToCart($event)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add To Cart</button>
+</div>

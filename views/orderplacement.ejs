@@ -1,0 +1,23 @@
+<form method="post" name = "orderAddressform" ng-submit="confirmOrder(orderAddressform)">
+   <div class="form-group">
+    <label>Name</label>
+    <input type="text" class="form-control" placeholder="Name" name="name" ng-model="addressDetails.name">
+  </div>
+  <div class="form-group">
+    <label>Username</label>
+    <input type="text" class="form-control" placeholder="Username" name="username" ng-model="addressDetails.username">
+  </div>
+   <div class="form-group">
+    <label>Email</label>
+    <input type="email" class="form-control" placeholder="Email" name="email" ng-model="addressDetails.email">
+  </div>
+    <div class="form-group">
+    <label>Mobile No</label>
+    <input type="number" class="form-control" placeholder="Mobile" name="mobile" ng-model="addressDetails.mobile">
+  </div>
+    <div class="form-group">
+    <label>Address</label>
+    <textarea rows="4" cols="50" class="form-control" placeholder="Address" name="address" ng-model="addressDetails.address"></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Place Order</button>
+</form>

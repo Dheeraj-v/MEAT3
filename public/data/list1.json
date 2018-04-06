@@ -1,0 +1,44 @@
+[
+	{
+		"itemId":"1",
+		"category":"chicken",
+		"itemName":"chicken without skin",
+		"price":"100",
+		"availability":"In-stock",
+		"imgUrl":"http://www.a1recovery.org/wp-content/uploads/2016/05/v_small3door.jpg"
+	},
+	{
+		"itemId":"2",
+		"category":"chicken",
+		"itemName":"chicken with skin",
+		"price":"100",
+		"availability":"In-stock",
+		"imgUrl":"http://www.a1recovery.org/wp-content/uploads/2016/05/v_small3door.jpg"		
+	},
+	{
+		"itemId":"3",
+		"category":"chicken",
+		"itemName":"leg boneless without skin",
+		"price":"100",
+		"availability":"In-stock",
+		"imgUrl":"http://www.a1recovery.org/wp-content/uploads/2016/05/v_small3door.jpg"		
+	},
+	{
+		"itemId":"4",
+		"category":"chicken",
+		"itemName":"leg l.shape without skin",
+		"price":"100",
+		"availability":"In-stock",
+		"imgUrl":"http://www.a1recovery.org/wp-content/uploads/2016/05/v_small3door.jpg"
+
+	},
+	{
+		"itemId":"5",
+		"category":"chicken",
+		"itemName":"leg l.shape with skin",
+		"price":"100",
+		"availability":"In-stock",
+		"imgUrl":"http://www.a1recovery.org/wp-content/uploads/2016/05/v_small3door.jpg"
+		
+	},				
+]
